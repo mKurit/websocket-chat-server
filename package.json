@@ -1,0 +1,26 @@
+{
+  "name": "websocket-chat-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index",
+    "run": "node ./src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mKurit/websocket-chat-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mKurit/websocket-chat-server/issues"
+  },
+  "homepage": "https://github.com/mKurit/websocket-chat-server#readme",
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "ws": "^8.13.0"
+  }
+}
